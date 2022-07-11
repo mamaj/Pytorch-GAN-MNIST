@@ -1,10 +1,7 @@
-from itertools import cycle
-
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.nn.functional as F
-from celluloid import Camera
 from torch.distributions.kl import kl_divergence as kl
 from torch.utils.data import DataLoader
 from tqdm.notebook import tqdm, trange
