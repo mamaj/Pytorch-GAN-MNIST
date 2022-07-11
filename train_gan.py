@@ -9,7 +9,7 @@ from torch.distributions.kl import kl_divergence as kl
 from torch.utils.data import DataLoader
 from tqdm.notebook import tqdm, trange
 
-from gan import GAN, GAN_FC
+from model import GAN, GAN_FC
 from utils import display, load_mnist, plot_latent_images
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
